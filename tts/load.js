@@ -12,8 +12,18 @@ function processVoice(voiceName, text) {
 	return new Promise((res, rej) => {
 		const voice = voices[voiceName];
 		switch (voice.source) {
-			case 'polly': {
-				var q = qs.encode({
+			function processVoice(voicename, text) {
+    return new Promise((res, rej) => {
+        const voice = voices[voicename];
+        switch (voice.source) {
+            case 'voiceforge': {
+                const urlStr = 'https://wrapper.online';
+                get(urlStr + '?voice=' + voice.arg + '&text=' + encodeURIComponent(text))
+                    .then(res)
+                    .catch(rej);
+                break;
+            } case 'polly': {
+			  var q = qs.encode({
 					texttype: "text",
 					text: text,
 					fallbackLanguage: "0",
