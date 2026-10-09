@@ -280,24 +280,24 @@
             "country": "US",
             "language": "en",
             "gender": "M",
-            "source": "readloud",
-            "arg": "/english/american/3-male-voice-eric.html",
+            "source": "voiceforge",
+            "arg": "Eric",
             "desc": "Eric"
         },
         "jennifer": {
             "country": "US",
             "language": "en",
             "gender": "F",
-            "source": "readloud",
-            "arg": "/english/american/28-female-voice-jennifer.html",
+            "source": "voiceforge",
+            "arg": "Jennifer",
             "desc": "Jennifer"
         },
         "skippy": {
             "country": "US",
             "language": "en",
             "gender": "M",
-            "source": "readloud",
-            "arg": "/english/american/49-funny-toy-voice-skippy-the-chipmunk.html",
+            "source": "voiceforge",
+            "arg": "Skippy",
             "desc": "Skippy"
         },
         "ivy_old": {
